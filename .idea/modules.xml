@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-quick-start/01-quick-start.iml" filepath="$PROJECT_DIR$/01-quick-start/01-quick-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-direct-exchange/02-direct-exchange.iml" filepath="$PROJECT_DIR$/02-direct-exchange/02-direct-exchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-topic-exchange/03-topic-exchange.iml" filepath="$PROJECT_DIR$/03-topic-exchange/03-topic-exchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-fanout-exchange/04-fanout-exchange.iml" filepath="$PROJECT_DIR$/04-fanout-exchange/04-fanout-exchange.iml" />
+    </modules>
+  </component>
+</project>

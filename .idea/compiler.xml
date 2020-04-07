@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="04-fanout-exchange" />
+        <module name="01-quick-start" />
+        <module name="03-topic-exchange" />
+        <module name="02-direct-exchange" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-quick-start" target="1.8" />
+      <module name="02-direct-exchange" target="1.8" />
+      <module name="03-topic-exchange" target="1.8" />
+      <module name="04-fanout-exchange" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-quick-start" options="-parameters" />
+      <module name="02-direct-exchange" options="-parameters" />
+      <module name="03-topic-exchange" options="-parameters" />
+      <module name="04-fanout-exchange" options="-parameters" />
+    </option>
+  </component>
+</project>
