@@ -5,5 +5,10 @@
     <file url="file://$PROJECT_DIR$/02-direct-exchange" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03-topic-exchange" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-fanout-exchange" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-confirm-listener" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-return-listener" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-custom-comsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-limiting-qos" charset="UTF-8" />
   </component>
 </project>

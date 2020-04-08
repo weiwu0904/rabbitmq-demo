@@ -6,6 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/02-direct-exchange/02-direct-exchange.iml" filepath="$PROJECT_DIR$/02-direct-exchange/02-direct-exchange.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-topic-exchange/03-topic-exchange.iml" filepath="$PROJECT_DIR$/03-topic-exchange/03-topic-exchange.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-fanout-exchange/04-fanout-exchange.iml" filepath="$PROJECT_DIR$/04-fanout-exchange/04-fanout-exchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-message/05-message.iml" filepath="$PROJECT_DIR$/05-message/05-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-return-listener/07-return-listener.iml" filepath="$PROJECT_DIR$/07-return-listener/07-return-listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-custom-comsumer/08-custom-comsumer.iml" filepath="$PROJECT_DIR$/08-custom-comsumer/08-custom-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-limiting-qos/09-limiting-qos.iml" filepath="$PROJECT_DIR$/09-limiting-qos/09-limiting-qos.iml" />
     </modules>
   </component>
 </project>

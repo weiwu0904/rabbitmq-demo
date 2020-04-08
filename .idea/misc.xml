@@ -7,6 +7,11 @@
         <option value="$PROJECT_DIR$/02-direct-exchange/pom.xml" />
         <option value="$PROJECT_DIR$/03-topic-exchange/pom.xml" />
         <option value="$PROJECT_DIR$/04-fanout-exchange/pom.xml" />
+        <option value="$PROJECT_DIR$/05-message/pom.xml" />
+        <option value="$PROJECT_DIR$/06-confirm-message/pom.xml" />
+        <option value="$PROJECT_DIR$/07-return-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/08-custom-comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/09-limiting/pom.xml" />
       </list>
     </option>
   </component>

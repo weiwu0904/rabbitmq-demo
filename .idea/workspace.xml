@@ -1,12 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e195b74-7eff-4c7e-bc9a-ef6c4df40c41" name="Default Changelist" comment="" />
+    <list default="true" id="2e195b74-7eff-4c7e-bc9a-ef6c4df40c41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/05-message/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-message/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-message/src/main/java/com/weiwu/quickstart/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-message/src/main/java/com/weiwu/quickstart/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-message/src/main/java/com/weiwu/quickstart/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-message/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-message/src/test/java/com/weiwu/quickstart/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-confirm-listener/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-confirm-listener/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-confirm-listener/src/main/java/com/weiwu/quickstart/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-confirm-listener/src/main/java/com/weiwu/quickstart/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-confirm-listener/src/main/java/com/weiwu/quickstart/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-confirm-listener/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-confirm-listener/src/test/java/com/weiwu/quickstart/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-return-listener/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-return-listener/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-return-listener/src/main/java/com/weiwu/quickstart/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-return-listener/src/main/java/com/weiwu/quickstart/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-return-listener/src/main/java/com/weiwu/quickstart/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-return-listener/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-return-listener/src/test/java/com/weiwu/quickstart/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-custom-comsumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-custom-comsumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/MyConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-custom-comsumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-custom-comsumer/src/test/java/com/weiwu/quickstart/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-limiting-qos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-limiting-qos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/MyConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-limiting-qos/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-limiting-qos/src/test/java/com/weiwu/quickstart/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Producer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/01-quick-start/target/" />
     <ignored path="$PROJECT_DIR$/02-direct-exchange/target/" />
     <ignored path="$PROJECT_DIR$/03-topic-exchange/target/" />
     <ignored path="$PROJECT_DIR$/04-fanout-exchange/target/" />
+    <ignored path="$PROJECT_DIR$/05-message/target/" />
+    <ignored path="$PROJECT_DIR$/06-confirm-message/target/" />
+    <ignored path="$PROJECT_DIR$/07-return-listener/target/" />
+    <ignored path="$PROJECT_DIR$/06-confirm-listener/target/" />
+    <ignored path="$PROJECT_DIR$/08-custom-comsumer/target/" />
+    <ignored path="$PROJECT_DIR$/09-limiting/target/" />
+    <ignored path="$PROJECT_DIR$/09-limiting-qos/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,87 +84,96 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Consumer.java">
+        <entry file="file://$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            <state relative-caret-position="531">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-quick-start/.gitignore">
+        <entry file="file://$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-direct-exchange/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-topic-exchange/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="330">
+              <caret line="28" selection-start-line="28" selection-end-line="42" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04-fanout-exchange/.gitignore">
+        <entry file="file://$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/MyConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="475">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-fanout-exchange/src/main/java/com/weiwu/quickstart/Consumer.java">
+        <entry file="file://$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+            <state relative-caret-position="362">
+              <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-fanout-exchange/src/main/java/com/weiwu/quickstart/Producer.java">
+        <entry file="file://$PROJECT_DIR$/09-limiting-qos/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="437">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-fanout-exchange/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-fanout-exchange/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-fanout-exchange/src/main/java/com/weiwu/quickstart/Application.java">
+        <entry file="file://$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/Producer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="569">
+              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/3.6.5/amqp-client-3.6.5-sources.jar!/com/rabbitmq/client/Channel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="225" column="4" selection-start-line="225" selection-start-column="4" selection-end-line="225" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/3.6.5/amqp-client-3.6.5-sources.jar!/com/rabbitmq/client/DefaultConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/MyConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,18 +198,38 @@
         <option value="$PROJECT_DIR$/01-quick-start/src/main/java/com/weiwu/quickstart/Producer.java" />
         <option value="$PROJECT_DIR$/01-quick-start/src/main/java/com/weiwu/quickstart/Consumer.java" />
         <option value="$PROJECT_DIR$/02-direct-exchange/pom.xml" />
-        <option value="$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Producer.java" />
         <option value="$PROJECT_DIR$/03-topic-exchange/pom.xml" />
         <option value="$PROJECT_DIR$/03-topic-exchange/src/main/java/com/weiwu/quickstart/Producer.java" />
         <option value="$PROJECT_DIR$/03-topic-exchange/src/main/java/com/weiwu/quickstart/Consumer.java" />
-        <option value="$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Consumer.java" />
-        <option value="$PROJECT_DIR$/04-fanout-exchange/pom.xml" />
         <option value="$PROJECT_DIR$/04-fanout-exchange/src/main/java/com/weiwu/quickstart/Consumer.java" />
         <option value="$PROJECT_DIR$/04-fanout-exchange/src/main/java/com/weiwu/quickstart/Producer.java" />
         <option value="$PROJECT_DIR$/01-quick-start/.gitignore" />
         <option value="$PROJECT_DIR$/02-direct-exchange/.gitignore" />
         <option value="$PROJECT_DIR$/03-topic-exchange/.gitignore" />
         <option value="$PROJECT_DIR$/04-fanout-exchange/.gitignore" />
+        <option value="$PROJECT_DIR$/04-fanout-exchange/pom.xml" />
+        <option value="$PROJECT_DIR$/05-message/pom.xml" />
+        <option value="$PROJECT_DIR$/05-message/src/main/java/com/weiwu/quickstart/Producer.java" />
+        <option value="$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Producer.java" />
+        <option value="$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Consumer.java" />
+        <option value="$PROJECT_DIR$/05-message/src/main/java/com/weiwu/quickstart/Consumer.java" />
+        <option value="$PROJECT_DIR$/06-confirm-message/pom.xml" />
+        <option value="$PROJECT_DIR$/06-confirm-message/src/main/java/com/weiwu/quickstart/Consumer.java" />
+        <option value="$PROJECT_DIR$/06-confirm-message/src/main/java/com/weiwu/quickstart/Producer.java" />
+        <option value="$PROJECT_DIR$/07-return-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/07-return-listener/src/main/java/com/weiwu/quickstart/Consumer.java" />
+        <option value="$PROJECT_DIR$/07-return-listener/src/main/java/com/weiwu/quickstart/Producer.java" />
+        <option value="$PROJECT_DIR$/06-confirm-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/06-confirm-listener/src/main/java/com/weiwu/quickstart/Producer.java" />
+        <option value="$PROJECT_DIR$/08-custom-comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/Producer.java" />
+        <option value="$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/MyConsumer.java" />
+        <option value="$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/Consumer.java" />
+        <option value="$PROJECT_DIR$/09-limiting/pom.xml" />
+        <option value="$PROJECT_DIR$/09-limiting-qos/pom.xml" />
+        <option value="$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/Producer.java" />
+        <option value="$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/Consumer.java" />
+        <option value="$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/MyConsumer.java" />
       </list>
     </option>
   </component>
@@ -171,13 +251,6 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="40" />
     <option name="y" value="23" />
@@ -195,19 +268,39 @@
           <expand>
             <path>
               <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01-quick-start" type="462c0819:PsiDirectoryNode" />
+              <item name="09-limiting-qos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02-direct-exchange" type="462c0819:PsiDirectoryNode" />
+              <item name="09-limiting-qos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03-topic-exchange" type="462c0819:PsiDirectoryNode" />
+              <item name="09-limiting-qos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-fanout-exchange" type="462c0819:PsiDirectoryNode" />
+              <item name="09-limiting-qos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="09-limiting-qos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="09-limiting-qos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,6 +311,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -238,6 +332,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/04-fanout-exchange" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,23 +347,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Consumer">
-    <configuration name="Consumer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Consumer (1)">
+    <configuration name="Consumer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.weiwu.quickstart.Consumer" />
-      <module name="03-topic-exchange" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.weiwu.quickstart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Consumer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.weiwu.quickstart.Consumer" />
-      <module name="04-fanout-exchange" />
+      <module name="09-limiting-qos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.weiwu.quickstart.*" />
@@ -281,7 +363,7 @@
     </configuration>
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.weiwu.quickstart.Consumer" />
-      <module name="02-direct-exchange" />
+      <module name="08-custom-comsumer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.weiwu.quickstart.*" />
@@ -292,9 +374,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Producer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.weiwu.quickstart.Producer" />
-      <module name="03-topic-exchange" />
+      <module name="09-limiting-qos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.weiwu.quickstart.*" />
@@ -307,7 +389,7 @@
     </configuration>
     <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.weiwu.quickstart.Producer" />
-      <module name="04-fanout-exchange" />
+      <module name="08-custom-comsumer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.weiwu.quickstart.*" />
@@ -325,13 +407,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Application.Consumer (1)" />
+      <item itemvalue="Application.Producer (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Consumer (1)" />
+        <item itemvalue="Application.Producer (1)" />
         <item itemvalue="Application.Producer" />
-        <item itemvalue="Application.Consumer (3)" />
-        <item itemvalue="Application.Producer (2)" />
-        <item itemvalue="Application.Consumer (2)" />
+        <item itemvalue="Application.Consumer" />
       </list>
     </recent_temporary>
   </component>
@@ -347,12 +435,12 @@
       <updated>1586238289273</updated>
       <workItem from="1586238290579" duration="3223000" />
       <workItem from="1586241821238" duration="2205000" />
-      <workItem from="1586251558091" duration="6447000" />
+      <workItem from="1586251558091" duration="17789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11875000" />
+    <option name="totallyTimeSpent" value="23217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="877" extended-state="6" />
@@ -364,7 +452,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5082803" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5808917" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,13 +476,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/3.6.5/amqp-client-3.6.5.jar!/com/rabbitmq/client/Channel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-quick-start/src/main/java/com/weiwu/quickstart/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -413,17 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1463">
           <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/3.6.5/amqp-client-3.6.5-sources.jar!/com/rabbitmq/client/QueueingConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="74" column="41" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="41" />
-          <folding>
-            <element signature="e#4608#4609#0" expanded="true" />
-            <element signature="e#4669#4670#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,31 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/3.6.5/amqp-client-3.6.5-sources.jar!/com/rabbitmq/client/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-topic-exchange/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -520,43 +569,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-fanout-exchange/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-fanout-exchange/src/main/java/com/weiwu/quickstart/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-fanout-exchange/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-fanout-exchange/src/main/java/com/weiwu/quickstart/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-fanout-exchange/src/main/java/com/weiwu/quickstart/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01-quick-start/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -583,6 +597,247 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-fanout-exchange/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-fanout-exchange/src/main/java/com/weiwu/quickstart/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="33" selection-start-line="30" selection-start-column="7" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-fanout-exchange/src/main/java/com/weiwu/quickstart/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-fanout-exchange/src/main/java/com/weiwu/quickstart/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-fanout-exchange/05-message/src/main/java/com/weiwu/quickstart/Producer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-fanout-exchange/05-message/src/main/java/com/weiwu/quickstart/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-fanout-exchange/05-message/src/main/java/com/weiwu/quickstart/Application.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-message/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-direct-exchange/src/main/java/com/weiwu/quickstart/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-message/src/main/java/com/weiwu/quickstart/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-message/src/main/java/com/weiwu/quickstart/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-message/src/main/java/com/weiwu/quickstart/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-confirm-listener/src/main/java/com/weiwu/quickstart/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-confirm-listener/src/main/java/com/weiwu/quickstart/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-return-listener/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-return-listener/src/main/java/com/weiwu/quickstart/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-return-listener/src/main/java/com/weiwu/quickstart/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="31" selection-start-line="31" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-confirm-listener/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-confirm-listener/src/main/java/com/weiwu/quickstart/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-custom-comsumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/3.6.5/amqp-client-3.6.5-sources.jar!/com/rabbitmq/client/QueueingConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="87" column="48" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="53" />
+          <folding>
+            <element signature="e#4608#4609#0" expanded="true" />
+            <element signature="e#4669#4670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/3.6.5/amqp-client-3.6.5-sources.jar!/com/rabbitmq/client/DefaultConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/MyConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/3.6.5/amqp-client-3.6.5-sources.jar!/com/rabbitmq/client/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="225" column="4" selection-start-line="225" selection-start-column="4" selection-end-line="225" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-custom-comsumer/src/main/java/com/weiwu/quickstart/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-limiting-qos/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" selection-start-line="28" selection-end-line="42" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-limiting-qos/src/main/java/com/weiwu/quickstart/MyConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
         </state>
       </provider>
     </entry>
