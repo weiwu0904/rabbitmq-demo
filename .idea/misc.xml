@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/07-return-listener/pom.xml" />
         <option value="$PROJECT_DIR$/08-custom-comsumer/pom.xml" />
         <option value="$PROJECT_DIR$/09-limiting/pom.xml" />
+        <option value="$PROJECT_DIR$/10-dlx/pom.xml" />
+        <option value="$PROJECT_DIR$/11-rabbitmq-spring/pom.xml" />
       </list>
     </option>
   </component>

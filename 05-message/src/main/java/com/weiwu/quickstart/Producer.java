@@ -38,7 +38,7 @@ public class Producer {
         AMQP.BasicProperties properties = new AMQP.BasicProperties().builder()
                 .deliveryMode(2)
                 .contentEncoding("utf-8")
-                .expiration("10000")
+                .expiration("10000") // 过期时间
                 .headers(headers)
                 .build();
 

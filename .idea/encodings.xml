@@ -10,5 +10,7 @@
     <file url="file://$PROJECT_DIR$/07-return-listener" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08-custom-comsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09-limiting-qos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-dlx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-rabbitmq-spring" charset="UTF-8" />
   </component>
 </project>

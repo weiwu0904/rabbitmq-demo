@@ -28,41 +28,31 @@ public class Consumer {
         //3. 创建通信信道
         Channel channel = connection.createChannel();
 
-        //4. 声明/创建 一个队列，用来监听消息
-        String queueName = "test001";
+        // 创建死信队列
+        String dlxExchangeName = "dlx.exchange";
+        String dlxQueueName = "dlx.queue";
+        channel.exchangeDeclare(dlxExchangeName, "topic", true);
+        channel.queueDeclare(dlxQueueName, true, false, false, null);
+        channel.queueBind(dlxQueueName, dlxExchangeName, "#");
 
-        // 通过  arguments 参数 设置队列的过期时间
+        // 设置正常队列的 转发的 私信队列
+
+        //4. 声明/创建 一个队列，用来监听消息
+        String exchangeName = "test_dlx_exchange";
+        String routingKey = "dlx.*";
+        String queueName = "test_dlx_queue";
+
+        channel.exchangeDeclare(exchangeName, "topic", true);
+
+        // 设置队列的 arguments， 告知出现死信消息转发到 dlx交换机
         Map<String, Object> arguments = new HashMap<>();
+        arguments.put("x-dead-letter-exchange", dlxExchangeName);
         arguments.put("x-message-ttl", 10000);
         channel.queueDeclare(queueName, true, false, false, arguments);
-
-
-        //5. 创建一个消费者
-        QueueingConsumer consumer = new QueueingConsumer(channel);
-
-        //6. 设置channel
-        channel.basicConsume(queueName, true, consumer);
-
-        while (true) {
-            //7. 获取消息, 配送，
-            QueueingConsumer.Delivery delivery = consumer.nextDelivery();
-
-            byte[] body = delivery.getBody();
-
-            String msg = new String(body);
-
-            System.out.println("msg = " + msg);
-
-            AMQP.BasicProperties properties = delivery.getProperties();
-            Map<String, Object> headers = properties.getHeaders();
-            System.out.println("headers = " + headers);
-
-            Envelope envelope = delivery.getEnvelope();
-            envelope.getDeliveryTag();
-        }
-
-        //5. 关闭相关的连接
-//        channel.close();
-//        connection.close();
+        channel.queueBind(queueName, exchangeName, routingKey);
+        //5. 设置qos
+        channel.basicQos(0, 1, false);
+        // 关闭自动签收 autoAck = false
+        channel.basicConsume(queueName, false, new MyConsumer(channel));
     }
 }

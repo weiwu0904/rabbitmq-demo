@@ -9,7 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/05-message/05-message.iml" filepath="$PROJECT_DIR$/05-message/05-message.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-return-listener/07-return-listener.iml" filepath="$PROJECT_DIR$/07-return-listener/07-return-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-custom-comsumer/08-custom-comsumer.iml" filepath="$PROJECT_DIR$/08-custom-comsumer/08-custom-comsumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09-limiting-qos/09-limiting-qos.iml" filepath="$PROJECT_DIR$/09-limiting-qos/09-limiting-qos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-dlx/10-dlx.iml" filepath="$PROJECT_DIR$/10-dlx/10-dlx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-rabbitmq-spring/11-rabbitmq-spring.iml" filepath="$PROJECT_DIR$/11-rabbitmq-spring/11-rabbitmq-spring.iml" />
     </modules>
   </component>
 </project>
